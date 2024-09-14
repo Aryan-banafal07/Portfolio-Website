@@ -136,7 +136,7 @@ import {
     },
     {
       title: "Anpr System",
-      icon: urd,
+      icon: carrent,
       iconBg: "#E6DEDD",
       date: "Aug 2022 - Nov 2022",
       points: [
@@ -148,7 +148,7 @@ import {
     },
     {
       title: "Breast Cancer Prediction",
-      icon: shopify,
+      icon: tripguide,
       iconBg: "#383E56",
       date: "Jan 2024 - April 2024",
       points: [
@@ -159,7 +159,7 @@ import {
     },
     {
       title: "MITWPU ERP System Developer",
-      icon: urd,
+      icon: jobit,
       iconBg: "#E6DEDD",
       date: "August 2024 - Present",
       points: [
