@@ -213,67 +213,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "ANPR",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The ANPR system utilizes advanced optical character recognition (OCR) technology to automatically identify and read vehicle license plates in real-time.",
       tags: [
         {
-          name: "react",
+          name: "Machine learning algorithms",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "OpenCV",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "EasyOcr",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Aryan-banafal07/Anpr",
     },
     {
-      name: "Job IT",
+      name: "Mit-Wpu Erp",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application for MIT-WPU that streamlines campus operations by providing tools for information management and student services.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "html/css/bootstrap.css",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/QuirkyDevil/mit-erp",
     },
     {
-      name: "Trip Guide",
+      name: "Breast Cancer Prediction",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A machine learning model designed to predict the likelihood of breast cancer based on patient data, utilizing features such as tumor characteristics and medical history to support early diagnosis and treatment planning.",
       tags: [
         {
-          name: "nextjs",
+          name: "Machine Learning Model",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Python ",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Visualization",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Aryan-banafal07/Breast-Cancer-Prediction/blob/main/Breast_Cancer_Detection.ipynb",
     },
   ];
   
