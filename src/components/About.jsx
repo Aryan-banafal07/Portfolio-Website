@@ -49,7 +49,7 @@ const About = () => {
         I am a passionate AI and data science enthusiast with hands-on experience in machine learning and artificial intelligence. My expertise spans across Python programming, data analysis, and building intelligent systems. I thrive on solving complex problems and creating innovative solutions. Let's collaborate to turn your data-driven ideas into impactful results!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-5'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

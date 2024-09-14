@@ -24,7 +24,13 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-  
+  import urd from "../assets/company/urd.jpg";
+  import python from "../assets/tech/python.png";
+  import R from "../assets/tech/R.png";
+  import powerbi from "../assets/tech/powerbi.png";
+  import tableau from "../assets/tech/tableau.png";
+  import excel from "../assets/tech/excel.png";
+  import hadoop from "../assets/tech/hadoop.png";
   export const navLinks = [
     {
       id: "about",
@@ -62,35 +68,35 @@ import {
   const technologies = [
     {
       name: "Python",
-      icon:  html,
+      icon:  python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "R",
+      icon: R,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Excel",
+      icon: excel,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Power Bi",
+      icon: powerbi,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Tabeau",
+      icon: tableau,
     },
     {
       name: "MongoDB",
@@ -109,18 +115,18 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "hadoop",
+      icon: hadoop,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Front End Developer",
+      company_name: "URD Solutions",
+      icon: urd,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jaunary 2022 - August 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,44 +135,53 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Anpr System",
+      icon: urd,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2022 - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining the ANPR system using Python, OpenCV, and EasyOCR, along with other related technologies.",
+    
+    "Implementing a responsive and accurate recognition system, ensuring compatibility across various image inputs and environments.",
+    "Participating in code reviews and providing constructive feedback to improve the accuracy and performance of the ANPR system.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Breast Cancer Prediction",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2024 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining a Breast Cancer Prediction system using machine learning models and other related technologies.",
+        "Implementing responsive design and ensuring cross-browser compatibility for the prediction system interface.",
+        "Participating in code reviews and providing constructive feedback to improve model accuracy and performance.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "MITWPU ERP System Developer",
+      icon: urd,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "August 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Developing and maintaining the MITWPU ERP system using modern web technologies and ensuring seamless data integration.",
+        "Collaborating with  teams and other developers to create a user-friendly, high-quality ERP solution.",
+        "Implementing responsive design and ensuring cross-browser compatibility for the ERP system interface.",
+        "Participating in code reviews and providing constructive feedback to improve the overall performance and scalability of the ERP system."
+      ]
     },
+    {
+      title: "Game Analytics: Player Behaviour & Mental Health in India",
+      icon: urd,
+      iconBg: "#E6DEDD",
+      date: "August 2024 - Present",
+      points: [
+        "Conducting research and developing analytics solutions to study player behavior and mental health trends in the Indian gaming community.",
+        "Collaborating with psychologists, data analysts, and gaming industry experts to analyze data and create actionable insights.",
+        "Implementing data visualization techniques and ensuring accurate representation of player behavior metrics.",
+        "Participating in data review sessions and providing actionable insights to improve mental health awareness and well-being among players."
+      ]
+    }
+  
   ];
   
   const testimonials = [
