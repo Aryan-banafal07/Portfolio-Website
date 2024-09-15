@@ -31,6 +31,7 @@ import {
   import tableau from "../assets/tech/tableau.png";
   import excel from "../assets/tech/excel.png";
   import hadoop from "../assets/tech/hadoop.png";
+  import data from "../assets/data.png";
   export const navLinks = [
     {
       id: "about",
@@ -180,8 +181,19 @@ import {
         "Implementing data visualization techniques and ensuring accurate representation of player behavior metrics.",
         "Participating in data review sessions and providing actionable insights to improve mental health awareness and well-being among players."
       ]
+    },
+    {
+      title: "Automatic DataPreprocessing",
+      icon: urd,
+      iconBg: "#E6DEDD",
+      date: "August 2024 - Present",
+      points: [
+        "Develop and implement tools for automatic collection and ingestion of diverse datasets from various sources.",
+        "Create automated workflows for data cleaning, including handling missing values, outlier detection, and normalization.",
+        "Implement algorithms for automatic feature extraction and selection to enhance the quality and relevance of the data.",
+        "Develop automated processes for selecting the most appropriate machine learning models and tuning their hyperparameters based on the dataset."
+      ]
     }
-  
   ];
   
   const testimonials = [
@@ -251,7 +263,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: tripguide,
       source_code_link: "https://github.com/QuirkyDevil/mit-erp",
     },
     {
@@ -272,8 +284,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: jobit,
       source_code_link: "https://github.com/Aryan-banafal07/Breast-Cancer-Prediction/blob/main/Breast_Cancer_Detection.ipynb",
+    },
+    {
+      name: "DataPreprocessorML",
+      description:
+      "DataPreprocessorML is a web-based tool for simplifying data preprocessing tasks. Users can upload CSV files, which are then cleaned and standardized automatically. The processed data is available for download, ready for machine learning applications.",
+      tags: [
+        {
+          name: "Machine Learning Model",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python ",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Data Cleaning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: data,
+      source_code_link: "https://github.com/Aryan-banafal07/Automatic-DataPreprocessorML",
     },
   ];
   
