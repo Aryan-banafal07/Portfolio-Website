@@ -20,8 +20,7 @@ const Contact = () => {
   const [isVisible, setIsVisible] = useState(false); // To control rendering of EarthCanvas
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -39,9 +38,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Aryan Banafal",
+          to_name: "Aryan Banafal",  // You can dynamically change this if you want
           from_email: form.email,
-          to_email: "aryanbanafal7@gmail.com",
+          to_email: "aryanbanafal7@gmail.com", // Add your receiving email here
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -119,7 +118,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
