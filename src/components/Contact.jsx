@@ -33,18 +33,20 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Aryan Banafal",  // You can dynamically change this if you want
-          from_email: form.email,
-          to_email: "aryanbanafal7@gmail.com", // Add your receiving email here
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
+  .send(
+    import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    {
+      from_name: form.name,  // User's name from the form
+      from_email: form.email, // User's email from the form
+      to_name: "Aryan Banafal",  // Your name, or whoever you want to receive the email
+      to_email: "aryanbanafal7@gmail.com",  // Your email
+      message: form.message,  // Message from the form
+    },
+    import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+  )
+
+      
       .then(
         () => {
           setLoading(false);
